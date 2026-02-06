@@ -11,7 +11,7 @@ namespace Mission_5.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult HireAGuide()
         {
             return View();
         }

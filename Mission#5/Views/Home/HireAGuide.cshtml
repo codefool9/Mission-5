@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Hire a Guide";
+}
+
+<h1>Hire a Guide</h1>
+
+<img src="/img/IMG_2970.jpg" alt="Hobby Image" style="width:500px;" />
+
+<p>Would you like to come join us? Enter your hours below to see the cost!</p>
+
+<div class="calculator-container">
+    <label for="hours">Hours needed:</label>
+    <input type="number" id="hours" min="1" placeholder="Enter positive number" />
+    <br /><br />
+
+    <label for="rate">Hourly Rate ($):</label>
+    <input type="text" id="rate" value="50" readonly />
+    <br /><br />
+
+    <button id="btnCalculate">Calculate Total</button>
+    <br /><br />
+
+    <label for="total">Total Estimate ($):</label>
+    <input type="text" id="total" readonly />
+</div>
+
+@section Scripts {
+    <script src="~/js/calculator.js"></script>
+}

@@ -7,4 +7,8 @@
     <RootNamespace>Mission_5</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\js\calculator.js" />
+  </ItemGroup>
+
 </Project>
